@@ -1,0 +1,34 @@
+*{
+    background-color: #dcdcdc;
+    font-family: sans-serif;
+    /* display: flexbox; */
+    
+}
+
+.video-embed{
+    /* width: 50%;
+    height: 50%;  */
+}
+
+.btn-get-video{
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-get-video:hover{
+    background-color: #178a0d;
+    color: #eee;
+    cursor: pointer;
+}
+
+.input-name-video{
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.input-name-video:hover{
+    border: 1px solid rgb(36, 34, 34);
+}

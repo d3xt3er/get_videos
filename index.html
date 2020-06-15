@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get information video</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
    
-    <iframe src=""></iframe>
+<iframe class="video-embed" src=""></iframe>
  <h3>Video Title</h3>
  <p class="description">Video Description<p>
         
-    <label for="">Link Video</label>
+    <label>Link Video</label>
     <p class="link_video"></p>
 
-    <form action="" method="GET" id="form-submit">
-        <input type="text" placeholder="nome do video..." id="name_video" required>
-        <input type="submit" value="get video">
+    <form method="GET" id="form-submit">
+        <input type="text" class="input-name-video" placeholder="name of video..." id="name_video" required>
+        <br>
+        <br>
+        <input type="submit" class="btn-get-video" value="Get Video">
     </form>
+
 </body>
 <script src="index.js"></script>
 </html>
